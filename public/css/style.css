@@ -1,0 +1,9 @@
+/* Resetar os espaçamentos dos objetos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mosca1 {
+    width: 50px;
+}
