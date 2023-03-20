@@ -7,3 +7,15 @@
 .mosca1 {
     width: 50px;
 }
+
+.mosca2 {
+    width: 70px;
+}
+
+.mosca3 {
+    width: 90px;
+}
+
+.ladoInvertido {
+    transform: scaleX(-1);
+}
