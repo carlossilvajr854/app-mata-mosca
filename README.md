@@ -1,2 +1,2 @@
-# app-mata-mosca
- App do Jogo Mata-Mosca em JavaScript
+# app-mata-mosquito
+ App do Jogo Mata-mosquito em JavaScript

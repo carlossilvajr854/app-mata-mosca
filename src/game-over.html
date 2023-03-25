@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Game Mata-Mosquito</title>
+        <title>Game Over</title>
         <link
             rel="shortcut icon"
             href="/public/img/mosquito.png"
@@ -18,20 +18,13 @@
     </head>
     <body>
         <div class="container">
-            <img src="/public/img/game.png" />
-            <div>
-                <select class="form-select form-select-lg mb-3" id="nivelJogo">
-                    <option value="0" selected>-- Selecione o nível</option>
-                    <option value="1">Normal</option>
-                    <option value="2">Difícil</option>
-                    <option value="3">Chuck Norris</option>
-                </select>
-            </div>
-            <button class="btn btn-danger" onclick="setDificuldade()">
-                Iniciar Jogo
+            <img src="/public/img/game_over.png" />
+            <button
+                class="btn btn-dark"
+                onclick="window.location.href = './index.html'"
+            >
+                Reiniciar
             </button>
         </div>
-
-        <script src="/public/js/jogo.js"></script>
     </body>
 </html>

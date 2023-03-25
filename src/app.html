@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="cursorRaquete">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Game Mata-Mosquito</title>
+        <link
+            rel="shortcut icon"
+            href="/public/img/mosquito.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="/public/css/style.css" />
+    </head>
+    <body onresize="ajustaTamanhoPalco()" onload="iniciarJogo()">
+        <div class="painel">
+            <div class="vidas">
+                <img src="/public/img/coracao_cheio.png" class="coracao" />
+                <img src="/public/img/coracao_cheio.png" class="coracao" />
+                <img src="/public/img/coracao_cheio.png" class="coracao" />
+            </div>
+            <div class="cronometro">
+                Tempo restante: <span id="tempo"></span>
+            </div>
+        </div>
+        <script src="/public/js/jogo.js"></script>
+    </body>
+</html>
