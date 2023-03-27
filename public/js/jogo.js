@@ -97,11 +97,17 @@ ajustaTamanhoPalco();
 function iniciarJogo() {
     let nivel = window.location.search.replace("?", "");
 
-    if (nivel == "2") {
+    if (nivel == "1") {
+        jogo.dificuldade = 3500;
+    } else if (nivel == "2") {
+        jogo.dificuldade = 1500;
+    } else if (nivel == "3") {
         jogo.dificuldade = 1000;
-    }
-    if (nivel == "3") {
+    } else if (nivel == "4") {
         jogo.dificuldade = 750;
+    } else {
+        alert("Nível inválido. Favor selecionar o nível do jogo corretamente!");
+        window.location.href = "/src/index.html";
     }
 
     jogo.cronometro = setInterval(() => {

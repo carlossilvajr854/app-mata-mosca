@@ -13,14 +13,16 @@
         <link rel="stylesheet" href="/public/css/style.css" />
     </head>
     <body onresize="ajustaTamanhoPalco()" onload="iniciarJogo()">
-        <div class="painel">
-            <div class="vidas">
-                <img src="/public/img/coracao_cheio.png" class="coracao" />
-                <img src="/public/img/coracao_cheio.png" class="coracao" />
-                <img src="/public/img/coracao_cheio.png" class="coracao" />
-            </div>
-            <div class="cronometro">
-                Tempo restante: <span id="tempo"></span>
+        <div class="div-container">
+            <div class="painel">
+                <div class="vidas">
+                    <img src="/public/img/coracao_cheio.png" class="coracao" />
+                    <img src="/public/img/coracao_cheio.png" class="coracao" />
+                    <img src="/public/img/coracao_cheio.png" class="coracao" />
+                </div>
+                <div class="cronometro">
+                    Tempo restante: <span id="tempo"></span>
+                </div>
             </div>
         </div>
         <script src="/public/js/jogo.js"></script>

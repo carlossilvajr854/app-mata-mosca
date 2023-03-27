@@ -17,14 +17,15 @@
         <link rel="stylesheet" href="/public/css/style.css" />
     </head>
     <body>
-        <div class="container">
-            <img src="/public/img/game.png" />
+        <div class="div-container">
+            <img src="/public/img/game.png" class="imgGame" />
             <div>
                 <select class="form-select form-select-lg mb-3" id="nivelJogo">
                     <option value="0" selected>-- Selecione o nível</option>
-                    <option value="1">Normal</option>
-                    <option value="2">Difícil</option>
-                    <option value="3">Chuck Norris</option>
+                    <option value="1">Fácil</option>
+                    <option value="2">Normal</option>
+                    <option value="3">Difícil</option>
+                    <option value="4">Chuck Norris</option>
                 </select>
             </div>
             <button class="btn btn-danger" onclick="setDificuldade()">
